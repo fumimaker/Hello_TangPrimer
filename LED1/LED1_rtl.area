@@ -1,0 +1,33 @@
+standard
+***Report Model: LED1***
+
+IO Statistics
+#IO                     6
+  #input                2
+  #output               4
+  #inout                0
+
+Gate Statistics
+#Basic gates           30
+  #and                  1
+  #nand                 0
+  #or                   0
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 0
+  #FADD                 0
+  #DFF                 26
+  #LATCH                0
+#MACRO_ADD              1
+#MACRO_EQ               1
+
+Report Hierarchy Area:
++-----------------------------------------+
+|Instance |Module |gates  |seq    |macros |
++-----------------------------------------+
+|top      |LED1   |4      |26     |2      |
++-----------------------------------------+
