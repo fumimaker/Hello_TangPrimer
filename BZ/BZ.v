@@ -16,7 +16,7 @@ if(RST_N==1'b0) begin
 	led <= 1'b0;
 	buzz <= 1'b0;
 end else begin
-	if(counter==12000000/880) begin
+	if(counter==12000000/440) begin
 		led <= ~led;
 		counter <= 24'd0;
 		buzz <= ~buzz;
