@@ -1,25 +1,25 @@
 standard
-***Report Model: LED1***
+***Report Model: top***
 
 IO Statistics
-#IO                     5
+#IO                     6
   #input                2
-  #output               3
+  #output               4
   #inout                0
 
 Utilization Statistics
-#lut                   26   out of  19600    0.13%
-#reg                   25   out of  19600    0.13%
-#le                    42
-  #lut only            17   out of     42   40.48%
-  #reg only            16   out of     42   38.10%
-  #lut&reg              9   out of     42   21.43%
+#lut                   25   out of  19600    0.13%
+#reg                   26   out of  19600    0.13%
+#le                    41
+  #lut only            15   out of     41   36.59%
+  #reg only            16   out of     41   39.02%
+  #lut&reg             10   out of     41   24.39%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                    5   out of    188    2.66%
+#pad                    6   out of    188    3.19%
   #ireg                 0
   #oreg                 0
   #treg                 0
@@ -31,6 +31,7 @@ Detailed IO Report
 Name           Direction     Location     IOStandard     DriveStrength     PackReg                  
 CLK_IN         INPUT         K14          LVCMOS25       N/A               NONE                     
 RST_N          INPUT         K16          LVCMOS25       N/A               NONE                     
+BZ             OUTPUT        P2           LVCMOS25       8                 NONE                     
 RGB_LED[2]     OUTPUT        P13          LVCMOS25       8                 NONE                     
 RGB_LED[1]     OUTPUT        J14          LVCMOS25       8                 NONE                     
 RGB_LED[0]     OUTPUT        R3           LVCMOS25       8                 NONE                     

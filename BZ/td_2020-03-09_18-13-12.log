@@ -1,0 +1,64 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     fpga
+   Run Date =   Mon Mar  9 18:13:12 2020
+
+   Run on =     DESKTOP-5VC2SBS
+============================================================
+RUN-1002 : start command "open_project BZ.al"
+HDL-1007 : analyze verilog file BZ.v
+RUN-1002 : start command "import_device al3_10.db -package BGA256"
+HDL-1007 : analyze verilog file BZ.v
+RUN-1002 : start command "elaborate -top BZ"
+HDL-1007 : elaborate module BZ in BZ.v(1)
+HDL-1200 : Current top model is BZ
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
+RUN-1002 : start command "read_adc constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment CLK_IN  LOCATION = K14; "
+USR-8027 ERROR: Location K14 is for dedicated pin! Choose another pin for normal use.
+USR-8064 ERROR: Read constraint/io.adc error-out.
+GUI-8309 ERROR: Failed to read adc constraint/io.adc.
