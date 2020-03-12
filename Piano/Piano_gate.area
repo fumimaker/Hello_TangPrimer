@@ -2,24 +2,24 @@ standard
 ***Report Model: top***
 
 IO Statistics
-#IO                    13
-  #input                9
+#IO                    14
+  #input               10
   #output               4
   #inout                0
 
 Utilization Statistics
-#lut                   55   out of  19600    0.28%
-#reg                   25   out of  19600    0.13%
-#le                    61
-  #lut only            36   out of     61   59.02%
-  #reg only             6   out of     61    9.84%
-  #lut&reg             19   out of     61   31.15%
+#lut                  253   out of  19600    1.29%
+#reg                  200   out of  19600    1.02%
+#le                   317
+  #lut only           117   out of    317   36.91%
+  #reg only            64   out of    317   20.19%
+  #lut&reg            136   out of    317   42.90%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                   13   out of    188    6.91%
+#pad                   14   out of    188    7.45%
   #ireg                 0
   #oreg                 0
   #treg                 0
@@ -29,5 +29,5 @@ Report Hierarchy Area:
 +--------------------------------------+
 |Instance |Module |le    |lut   |seq   |
 +--------------------------------------+
-|top      |top    |61    |55    |25    |
+|top      |top    |317   |253   |200   |
 +--------------------------------------+

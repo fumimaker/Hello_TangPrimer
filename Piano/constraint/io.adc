@@ -15,3 +15,4 @@ set_pin_assignment {SW[3]} { LOCATION = T7;  }
 set_pin_assignment {SW[4]} { LOCATION = R7;  }
 set_pin_assignment {SW[5]} { LOCATION = T8;  }
 set_pin_assignment {SW[6]} { LOCATION = N9;  }
+set_pin_assignment {SW[7]} { LOCATION = M10;  }
