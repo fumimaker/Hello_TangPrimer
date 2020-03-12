@@ -1,0 +1,33 @@
+standard
+***Report Model: LED1***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                   79   out of  19600    0.40%
+#reg                   22   out of  19600    0.11%
+#le                    86
+  #lut only            64   out of     86   74.42%
+  #reg only             7   out of     86    8.14%
+  #lut&reg             15   out of     86   17.44%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                 7
+  #treg                 0
+#pll                    1   out of      4   25.00%
+
+Report Hierarchy Area:
++--------------------------------------+
+|Instance |Module |le    |lut   |seq   |
++--------------------------------------+
+|top      |LED1   |86    |79    |22    |
++--------------------------------------+

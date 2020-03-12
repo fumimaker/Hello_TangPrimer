@@ -1,0 +1,26 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     mizuno_mobile_g
+   Run Date =   Thu Mar 12 18:12:28 2020
+
+   Run on =     MIZUNO_MOBILE_G
+============================================================
+RUN-001 : GUI based run...
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     mizuno_mobile_g
+   Run Date =   Thu Mar 12 18:12:28 2020
+
+   Run on =     MIZUNO_MOBILE_G
+============================================================
+RUN-1002 : start command "open_project Piano.al"
+GUI-8102 ERROR: Cannot find device:.
+GUI-8101 ERROR: import_device  failed.

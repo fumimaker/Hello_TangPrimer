@@ -78,12 +78,12 @@ always @(posedge CLK_IN) begin
 		end
 	end
 end
-assign BZ = (!SW[0]&&wave[0])^
-			(!SW[1]&&wave[1])^
-			(!SW[2]&&wave[2])^
-			(!SW[3]&&wave[3])^
-			(!SW[4]&&wave[4])^
-			(!SW[5]&&wave[5])^
-			(!SW[6]&&wave[6])^
+assign BZ = (!SW[0]&&wave[0])+
+			(!SW[1]&&wave[1])+
+			(!SW[2]&&wave[2])+
+			(!SW[3]&&wave[3])+
+			(!SW[4]&&wave[4])+
+			(!SW[5]&&wave[5])+
+			(!SW[6]&&wave[6])+
 			(!SW[7]&&wave[7]);
 endmodule
