@@ -8,15 +8,18 @@ IO Statistics
   #inout                0
 
 Utilization Statistics
-#lut                    0   out of  19600    0.00%
-#reg                    0   out of  19600    0.00%
-#le                     0
+#lut                  254   out of  19600    1.30%
+#reg                  200   out of  19600    1.02%
+#le                   318
+  #lut only           118   out of    318   37.11%
+  #reg only            64   out of    318   20.13%
+  #lut&reg            136   out of    318   42.77%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                    4   out of    188    2.13%
+#pad                   14   out of    188    7.45%
   #ireg                 0
   #oreg                 0
   #treg                 0
@@ -26,5 +29,5 @@ Report Hierarchy Area:
 +--------------------------------------+
 |Instance |Module |le    |lut   |seq   |
 +--------------------------------------+
-|top      |top    |0     |0     |0     |
+|top      |top    |318   |254   |200   |
 +--------------------------------------+

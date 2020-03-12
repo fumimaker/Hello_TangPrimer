@@ -8,15 +8,18 @@ IO Statistics
   #inout                0
 
 Utilization Statistics
-#lut                    0   out of  19600    0.00%
-#reg                    0   out of  19600    0.00%
-#le                     0
+#lut                  254   out of  19600    1.30%
+#reg                  200   out of  19600    1.02%
+#le                   318
+  #lut only           118   out of    318   37.11%
+  #reg only            64   out of    318   20.13%
+  #lut&reg            136   out of    318   42.77%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                    4   out of    188    2.13%
+#pad                   14   out of    188    7.45%
   #ireg                 0
   #oreg                 0
   #treg                 0
@@ -26,6 +29,16 @@ Utilization Statistics
 Detailed IO Report
 
 Name           Direction     Location     IOStandard     DriveStrength     PackReg                  
+CLK_IN         INPUT         K14          LVCMOS25       N/A               NONE                     
+RST_N          INPUT         K16          LVCMOS25       N/A               NONE                     
+SW[7]          INPUT         M10          LVCMOS25       N/A               NONE                     
+SW[6]          INPUT         N9           LVCMOS25       N/A               NONE                     
+SW[5]          INPUT         T8           LVCMOS25       N/A               NONE                     
+SW[4]          INPUT         R7           LVCMOS25       N/A               NONE                     
+SW[3]          INPUT         T7           LVCMOS25       N/A               NONE                     
+SW[2]          INPUT         P5           LVCMOS25       N/A               NONE                     
+SW[1]          INPUT         N5           LVCMOS25       N/A               NONE                     
+SW[0]          INPUT         R2           LVCMOS25       N/A               NONE                     
 BZ             OUTPUT        P2           LVCMOS25       8                 NONE                     
 RGB_LED[2]     OUTPUT        P13          LVCMOS25       8                 NONE                     
 RGB_LED[1]     OUTPUT        J14          LVCMOS25       8                 NONE                     
