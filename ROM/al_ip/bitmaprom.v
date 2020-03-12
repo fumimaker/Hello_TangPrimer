@@ -15,7 +15,7 @@ module bitmaprom ( doa, addra, clka, rsta );
 
 	output [8:0] doa;
 
-	input  [13:0] addra;
+	input  [15:0] addra;
 	input  clka;
 	input  rsta;
 
@@ -23,24 +23,24 @@ module bitmaprom ( doa, addra, clka, rsta );
 
 
 	EG_LOGIC_BRAM #( .DATA_WIDTH_A(9),
-				.ADDR_WIDTH_A(14),
-				.DATA_DEPTH_A(16384),
+				.ADDR_WIDTH_A(16),
+				.DATA_DEPTH_A(65536),
 				.DATA_WIDTH_B(9),
-				.ADDR_WIDTH_B(14),
-				.DATA_DEPTH_B(16384),
+				.ADDR_WIDTH_B(16),
+				.DATA_DEPTH_B(65536),
 				.MODE("SP"),
 				.REGMODE_A("NOREG"),
 				.RESETMODE("SYNC"),
 				.IMPLEMENT("9K"),
 				.DEBUGGABLE("NO"),
 				.PACKABLE("NO"),
-				.INIT_FILE("NONE"),
-				.FILL_ALL("000000000"))
+				.INIT_FILE("../kuranado.mif"),
+				.FILL_ALL("NONE"))
 			inst(
 				.dia({9{1'b0}}),
 				.dib({9{1'b0}}),
 				.addra(addra),
-				.addrb({14{1'b0}}),
+				.addrb({16{1'b0}}),
 				.cea(1'b1),
 				.ceb(1'b0),
 				.ocea(1'b0),

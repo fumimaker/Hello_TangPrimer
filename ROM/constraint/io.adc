@@ -12,5 +12,6 @@ set_pin_assignment {VGA_GREEN[2]} { LOCATION = M10; }
 set_pin_assignment {VGA_GREEN[1]} { LOCATION = P11; }
 set_pin_assignment {VGA_GREEN[0]} { LOCATION = L10; }
 
-set_pin_assignment {VGA_BLUE[1]} { LOCATION = N11; }
-set_pin_assignment {VGA_BLUE[0]} { LOCATION = P12; }
+set_pin_assignment {VGA_BLUE[2]} { LOCATION = N11; }
+set_pin_assignment {VGA_BLUE[1]} { LOCATION = P12; }
+set_pin_assignment {VGA_BLUE[0]} { LOCATION = N12; }
