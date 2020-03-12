@@ -1,0 +1,57 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     mizuno_mobile_g
+   Run Date =   Thu Mar 12 20:57:28 2020
+
+   Run on =     MIZUNO_MOBILE_G
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256 -basic"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicated  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicated  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "read_verilog -file al_ip/bitmaprom.v"
+HDL-1007 : analyze verilog file al_ip/bitmaprom.v
+HDL-1007 : elaborate module bitmaprom in al_ip/bitmaprom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_B=9,ADDR_WIDTH_A=16,ADDR_WIDTH_B=16,DATA_DEPTH_A=65536,DATA_DEPTH_B=65536,MODE="SP",INIT_FILE="../../../../../綵203\200綵202ｦ綵203ｳ綵203ｭ綵203ｼ綵203\211/kuranado.mif") in C:/Anlogic/TD4.6.3/arch/eagle_macro.v(1072)
+HDL-1200 : Current top model is bitmaprom
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.3/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "bitmaprom"
+SYN-1011 : Flatten model bitmaprom
+SYN-1014 : Optimize round 1
+SYN-1032 : 29/0 useful/useless nets, 3/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 1, 0 better
+RUN-1002 : start command "map_macro -nopad"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "inst"
+SYN-2541 : Reading BRAM "inst" init file "D:/ユーザー\ドキュメント\GitHub\Hello_TangPrimer\ROM\al_ip\368'b00101110001011100010111100101110001011100010111100101110001011100010111100101110001011100010111100101110001011100010111111100011100000111000000011100011100000101010011011100011100000111011001111100011100000111010110111100011100000111011110011100011100000111000100100101111011010110111010101110010011000010110111001100001011001000110111100101110011011010110100101100110"
+SYN-8441 ERROR: Unable to open "D:/ユーザー\ドキュメント\GitHub\Hello_TangPrimer\ROM\al_ip\368'b00101110001011100010111100101110001011100010111100101110001011100010111100101110001011100010111100101110001011100010111111100011100000111000000011100011100000101010011011100011100000111011001111100011100000111010110111100011100000111011110011100011100000111000100100101111011010110111010101110010011000010110111001100001011001000110111100101110011011010110100101100110"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 740/0 useful/useless nets, 211/0 useful/useless insts
+SYN-1016 : Merged 110 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 110 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-1032 : 630/0 useful/useless nets, 101/0 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 629/0 useful/useless nets, 100/0 useful/useless insts
+SYN-2501 : Optimize round 1, 1 better
+SYN-2501 : Optimize round 2
+SYN-1032 : 629/0 useful/useless nets, 100/0 useful/useless insts
+SYN-2501 : Optimize round 2, 0 better
+SYN-1032 : 1185/2 useful/useless nets, 656/2 useful/useless insts
+RUN-1002 : start command "write_verilog al_ip/bitmaprom_sim.v"
+HDL-1201 : write out verilog file al_ip/bitmaprom_sim.v

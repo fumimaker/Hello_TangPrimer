@@ -32,14 +32,23 @@ hvsync_generator hvsync_inst(
 	.hpos(hpos),
 	.vpos(vpos)
 );
+wire [9:0] dout;
+bitmaprom bitmaprom_inst(
+	.clka(CLK_25MHZ),
+	.doa(dout),
+	.addra({vpos[7:0], hpos[7:0]}),
+	.rsta(1'b0)
+);
 
+wire [10:0]counter;
+assign counter = hpos+vpos;
 always @(posedge CLK_IN) begin
 	if(display_on) begin
-		VGA_RED <= hpos[8:6];
-		VGA_GREEN <= vpos[8:6];
-		VGA_BLUE <= hpos[6:4];
+		VGA_RED <= dout[8:6];
+		VGA_GREEN <= dout[5:3];
+		VGA_BLUE <= dout[2:0];
 	end
 end
 assign VGA_HSYNC = ~hsync;
-assign VGA_VSINC = ~vsync;
+assign VGA_VSYNC = ~vsync;
 endmodule
