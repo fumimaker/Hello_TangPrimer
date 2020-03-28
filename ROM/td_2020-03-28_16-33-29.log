@@ -1,0 +1,14 @@
+============================================================
+   Tang Dynasty, V4.6.14756
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.3/bin/td.exe
+   Built at =   17:01:29 Oct 21 2019
+   Run by =     fumi
+   Run Date =   Sat Mar 28 16:33:29 2020
+
+   Run on =     FUMIMAKER6BEE
+============================================================
+GUI-8102 ERROR: Cannot find device:.
+GUI-8101 ERROR: import_device  failed.
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
