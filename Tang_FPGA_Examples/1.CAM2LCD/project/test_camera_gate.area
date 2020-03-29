@@ -1,0 +1,33 @@
+standard
+***Report Model: test_cmera***
+
+IO Statistics
+#IO                    61
+  #input               13
+  #output              47
+  #inout                1
+
+Utilization Statistics
+#lut                 1405   out of  19600    7.17%
+#reg                  198   out of  19600    1.01%
+#le                  1475
+  #lut only          1277   out of   1475   86.58%
+  #reg only            70   out of   1475    4.75%
+  #lut&reg            128   out of   1475    8.68%
+#dsp                    1   out of     29    3.45%
+#bram                  61   out of     64   95.31%
+  #bram9k              61
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   61   out of    188   32.45%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    1   out of      4   25.00%
+
+Report Hierarchy Area:
++------------------------------------------+
+|Instance |Module     |le    |lut   |seq   |
++------------------------------------------+
+|top      |test_cmera |1475  |1405  |198   |
++------------------------------------------+

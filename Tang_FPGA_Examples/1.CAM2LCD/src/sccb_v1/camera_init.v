@@ -58,7 +58,8 @@ wire [15:0] regs_data =
 	counter == 6 ? 16'h3c_32:
 	counter == 7 ? 16'h11_00:
 	counter == 8 ? 16'h09_02:
-	counter == 9 ? 16'h04_d8:
+	//counter == 9 ? 16'h04_d8:
+	counter == 9 ? 16'h04_18:
 	counter == 10 ? 16'h13_e5:
 	counter == 11 ? 16'h14_48:
 	counter == 12 ? 16'h2c_0c:

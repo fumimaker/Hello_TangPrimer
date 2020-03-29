@@ -1,0 +1,35 @@
+standard
+***Report Model: test_cmera***
+
+IO Statistics
+#IO                    61
+  #input               13
+  #output              47
+  #inout                1
+
+Gate Statistics
+#Basic gates         3378
+  #and               1770
+  #nand                 0
+  #or                 580
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                222
+  #bufif1               1
+  #MX21               610
+  #FADD                 0
+  #DFF                195
+  #LATCH                0
+#MACRO_ADD             26
+#MACRO_EQ             258
+#MACRO_MULT             1
+#MACRO_MUX            633
+
+Report Hierarchy Area:
++---------------------------------------------+
+|Instance |Module     |gates  |seq    |macros |
++---------------------------------------------+
+|top      |test_cmera |3182   |195    |287    |
++---------------------------------------------+

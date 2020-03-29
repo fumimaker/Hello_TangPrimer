@@ -1,0 +1,93 @@
+standard
+***Report Model: test_cmera***
+
+IO Statistics
+#IO                    61
+  #input               13
+  #output              47
+  #inout                1
+
+Utilization Statistics
+#lut                 1419   out of  19600    7.24%
+#reg                  198   out of  19600    1.01%
+#le                  1489
+  #lut only          1291   out of   1489   86.70%
+  #reg only            70   out of   1489    4.70%
+  #lut&reg            128   out of   1489    8.60%
+#dsp                    1   out of     29    3.45%
+#bram                  61   out of     64   95.31%
+  #bram9k              61
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   61   out of    188   32.45%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    1   out of      4   25.00%
+
+
+Detailed IO Report
+
+Name          Direction     Location     IOStandard     DriveStrength     PackReg                  
+CLK_IN        INPUT         K14          LVCMOS25       N/A               NONE                     
+CSI_D[7]      INPUT         G16          LVCMOS25       N/A               NONE                     
+CSI_D[6]      INPUT         H16          LVCMOS25       N/A               NONE                     
+CSI_D[5]      INPUT         K15          LVCMOS25       N/A               NONE                     
+CSI_D[4]      INPUT         M15          LVCMOS25       N/A               NONE                     
+CSI_D[3]      INPUT         M16          LVCMOS25       N/A               NONE                     
+CSI_D[2]      INPUT         M14          LVCMOS25       N/A               NONE                     
+CSI_D[1]      INPUT         L14          LVCMOS25       N/A               NONE                     
+CSI_D[0]      INPUT         L16          LVCMOS25       N/A               NONE                     
+CSI_HREF      INPUT         H15          LVCMOS25       N/A               NONE                     
+CSI_PCLK      INPUT         K12          LVCMOS25       N/A               NONE                     
+CSI_VSYNC     INPUT         F15          LVCMOS25       N/A               NONE                     
+RST_N         INPUT         K16          LVCMOS25       N/A               NONE                     
+B[7]          OUTPUT        N1           LVCMOS25       8                 NONE                     
+B[6]          OUTPUT        M1           LVCMOS25       8                 NONE                     
+B[5]          OUTPUT        M2           LVCMOS25       8                 NONE                     
+B[4]          OUTPUT        L3           LVCMOS25       8                 NONE                     
+B[3]          OUTPUT        K3           LVCMOS25       8                 NONE                     
+B[2]          OUTPUT        K2           LVCMOS25       8                 NONE                     
+B[1]          OUTPUT        K1           LVCMOS25       8                 NONE                     
+B[0]          OUTPUT        J1           LVCMOS25       8                 NONE                     
+CSI_PWDN      OUTPUT        G14          LVCMOS25       8                 NONE                     
+CSI_RST       OUTPUT        E15          LVCMOS25       8                 NONE                     
+CSI_SOIC      OUTPUT        D16          LVCMOS25       8                 NONE                     
+CSI_XCLK      OUTPUT        J12          LVCMOS25       8                 NONE                     
+G[7]          OUTPUT        J3           LVCMOS25       8                 NONE                     
+G[6]          OUTPUT        J4           LVCMOS25       8                 NONE                     
+G[5]          OUTPUT        G3           LVCMOS25       8                 NONE                     
+G[4]          OUTPUT        G1           LVCMOS25       8                 NONE                     
+G[3]          OUTPUT        F2           LVCMOS25       8                 NONE                     
+G[2]          OUTPUT        F1           LVCMOS25       8                 NONE                     
+G[1]          OUTPUT        E4           LVCMOS25       8                 NONE                     
+G[0]          OUTPUT        E3           LVCMOS25       8                 NONE                     
+LCD_CLK       OUTPUT        L1           LVCMOS25       8                 NONE                     
+LCD_DEN       OUTPUT        L4           LVCMOS25       8                 NONE                     
+LCD_HSYNC     OUTPUT        P1           LVCMOS25       8                 NONE                     
+LCD_PWM       OUTPUT        J16          LVCMOS25       8                 NONE                     
+LCD_VSYNC     OUTPUT        R1           LVCMOS25       8                 NONE                     
+OD[0]         OUTPUT        N9           LVCMOS25       8                 NONE                     
+OD[1]         OUTPUT        T8           LVCMOS25       8                 NONE                     
+OD[2]         OUTPUT        R7           LVCMOS25       8                 NONE                     
+OD[3]         OUTPUT        T7           LVCMOS25       8                 NONE                     
+OD[4]         OUTPUT        P5           LVCMOS25       8                 NONE                     
+OD[5]         OUTPUT        N5           LVCMOS25       8                 NONE                     
+OD[6]         OUTPUT        R2           LVCMOS25       8                 NONE                     
+OD[7]         OUTPUT        P2           LVCMOS25       8                 NONE                     
+R[7]          OUTPUT        E1           LVCMOS25       8                 NONE                     
+R[6]          OUTPUT        D1           LVCMOS25       8                 NONE                     
+R[5]          OUTPUT        E2           LVCMOS25       8                 NONE                     
+R[4]          OUTPUT        C1           LVCMOS25       8                 NONE                     
+R[3]          OUTPUT        C2           LVCMOS25       8                 NONE                     
+R[2]          OUTPUT        C3           LVCMOS25       8                 NONE                     
+R[1]          OUTPUT        A2           LVCMOS25       8                 NONE                     
+R[0]          OUTPUT        B2           LVCMOS25       8                 NONE                     
+TESTA         OUTPUT        A10          LVCMOS25       8                 NONE                     
+TESTB         OUTPUT        A9           LVCMOS25       8                 NONE                     
+TESTC         OUTPUT        B10          LVCMOS25       8                 NONE                     
+TESTD         OUTPUT        C9           LVCMOS25       8                 NONE                     
+TESTE         OUTPUT        B6           LVCMOS25       8                 NONE                     
+TESTF         OUTPUT        C5           LVCMOS25       8                 NONE                     
+CSI_SOID      INOUT         D14          LVCMOS25       8                 NONE                     
+
