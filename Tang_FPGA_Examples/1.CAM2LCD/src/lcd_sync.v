@@ -2,8 +2,8 @@
 module lcd_sync
 #(
  	//display image at pos
-	parameter IMG_W = 100,  //图片行像素点个数
-	parameter IMG_H = 100,  //图片场像素点个数
+	parameter IMG_W = 0,  //图片行像素点个数
+	parameter IMG_H = 0,  //图片场像素点个数
 	parameter IMG_X = 0,
 	parameter IMG_Y = 0
 )
@@ -33,8 +33,10 @@ module lcd_sync
 //	localparam tvb = 45;
 //	localparam tv = 525 + tvb;
 	//640*480
-	localparam TFT_H = 640;  //TFT屏行像素点个数
-	localparam TFT_V = 480;  //TFT屏场像素点个数
+	//localparam TFT_H = 640;  //TFT屏行像素点个数
+	//localparam TFT_V = 480;  //TFT屏场像素点个数
+	localparam TFT_H = 1600;  //TFT屏行像素点个数
+	localparam TFT_V = 1200;  //TFT屏场像素点个数
 	
 	localparam thb = 160;
 	localparam th = 640 + thb;

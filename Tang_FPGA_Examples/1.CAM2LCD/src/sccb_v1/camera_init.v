@@ -50,7 +50,8 @@ reg[7:0] state_next;
 
 wire [15:0] regs_data = 
 	counter == 0 ? 16'hff_01:
-	counter == 1 ? 16'h12_80:
+	counter == 1 ? 16'h12_80://UXGA
+	//counter == 1 ? 16'h12_58://CIF
 	counter == 2 ? 16'hff_00:
 	counter == 3 ? 16'h2c_ff:
 	counter == 4 ? 16'h2e_df:
@@ -252,7 +253,9 @@ wire [15:0] regs_data =
 	counter == 197 ? 16'h5b_29: //OUTH/4&0xff
 	counter == 198 ? 16'h5c_00:
 	counter == 199 ? 16'he0_00:
-	16'hFF;
+ 	16'hFF;
+
+
 
 //assign regs_addr = 	counter == 0 ? 8'h12 :
 //							counter == 1 ? 8'h12 :
